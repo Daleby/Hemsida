@@ -1,0 +1,21 @@
+body,
+html {
+	margin:0;
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    line-height: 1.337;
+    overflow-x: hidden;
+}
+
+.absolute {
+	position:absolute;
+}
+
+.container {
+	height:100%;
+	width:100%;
+}
