@@ -1,14 +1,22 @@
+p {
+	padding:0;
+	margin:0;
+}
 .header {
-	height:0px;
-/*	height:70px;
-	background:linear-gradient(to right, rgba(0,0,0,.15),rgba(0,0,0,.05));
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 4px 10px rgba(0, 0, 0, 0.06);
-*/}
+	z-index: 10;
+	-webkit-box-shadow: 0 0 8px -1px #a5a5a5;
+	box-shadow: 0 0 8px -1px #a5a5a5;
+	padding:20px;
+}
 .content {
 	height:100%;
-	background:#40474f;
+	padding:20px;
 }
-a {
-  width: calc(50% - 2em);
-  color:#444;
+.footer {
+	padding:20px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    height:35px;
 }

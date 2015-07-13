@@ -106,11 +106,11 @@ function loadPage() {
                 loadFourOFour(function(response) {
                     console.log(response);
                     console.log("page load");
-                    document.getElementById('pageContainer').innerHTML = response;
+                    document.getElementById('content').innerHTML = response;
                 });
             } else {
                 // load HTML
-                document.getElementById('pageContainer').innerHTML = response;
+                document.getElementById('content').innerHTML = response;
             }
         });
         //load POPUPS.
