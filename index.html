@@ -4,101 +4,197 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LEKSTUGA</title>
-<!--     <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
- -->
-    <script src="js/vendor/modernizr.js"></script>
-    <link rel="stylesheet" href="css/build.min.css" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/foundation.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <!-- <link rel="stylesheet" href="css/build.min.css" /> -->
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+    if (typeof jQuery == 'undefined') {
+        document.write(unescape("%3Cscript src='js/vendor/jquery-1-11-3.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+    </script>
+    <link href='http://fonts.googleapis.com/css?family=Marck+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <script src="/js/vendor/modernizr.js"></script>
+    <script>
+    $(window).load(function() {
+        $(".se-pre-con").fadeOut("slow");
+    });
+    </script>
 </head>
 
 <body>
-    <section class="hero">
-        <div class="row intro">
-            <div class="small-centered medium-6 columns">
-                <h1 class="text-center">Information Technology Web Designer / Developer</h1>
-                <p class="text-center">Albin Daleby/p>
+    <div id="load" class="se-pre-con"></div>
+    <section id="hero">
+        <div id="droplet" class="hide-for-small-only">
+            <div id="droplet-bubble">
+                <div style="width:100%">
+                    <span id="droplet-text"></span><span id="droplet-text-slide"></span>
+                </div>
+                <img style="position:absolute;bottom:-8px;left:2px;" src="/img/talk.png">
+            </div>
+            <img id="droplet-img" src="/img/droplet.png">
+        </div>
+        <div style="display: inline-block; vertical-align: middle;">
+            <img src="/img/logo.png" style="display:table-cell;margin:0 auto;width:240px;">
+            <!-- <p id="hero-sub-title" class="hero-sub-title">"This world is but a canvas to our imagination"</p> -->
+            <p id="hero-title" class="hero-title">Från koncept till design till en slutgiltig produkt.</p>
+            <p id="hero-sub-title" class="hero-sub-title">Jag är en "<a href="/" class="white-link">Full-Stack</a>" utvecklare. Jag kan hela processen inom webutveckling.</p>
+            <!-- <p id="hero-sub-title" class="hero-sub-title">Jag har kunskaper om hela arbetsprocessen inom webutveckling. Med ett öga för design.</p> -->
+        </div>
+<!--         <div id="mouse-scroll" class="hide">
+            <img src="/img/mouse.png" style="display:block;margin:0 auto">
+            <p style="color:#ffffff;font-size:14px;">Scrolla ner för att se mer</p>
+        </div>
+ -->    </section>
+    <section id="about">
+        <div class="row">
+            <div class="large-12 columns" style="background:#ffffff;float:left;box-shadow:0 0 0 1px rgba(0,0,0,.1) inset, 0 3px 5px -3px rgba(0,0,0,.25);margin-bottom:0px;">
+                <div class="large-6 medium-12 columns" style="float:left;">
+                    <div class="large-8 medium-6 columns medium-centered large-centered" style="background:#ffffff;padding:40px;box-shadow:0 0 0 1px rgba(0,0,0,.1) inset, 0 3px 5px -3px rgba(0,0,0,.25)">
+                        <!-- <img src="/img/test.png" style="display:block;margin:0 auto;"> -->
+                    </div>
+                </div>
+                <div class="large-6 medium-12 columns" style="float:left;padding-top:40px;">
+                    <!-- <p style="line-height:1.2;margin:0;color:#4b9fe5;font-size:20px;font-style:italic">En för alla, alla för en</p> -->
+                    <!-- <p style="line-height:1.2;margin:0 0 15px;color:#df3c3c;font-size:45px;font-weight:300;">"Full stack" - Gör mig speciell</p> -->
+                    <p style="color:#232323">筡 鶭黮齥 浞浧浵 芘芛, 鉌 齹鑶 洷炟砏 梜淊淭 魆 稢綌 釸釪傛 縓罃蔾 垽娭屔, 韎 鑤仜伒 葞萴葂 葝葮 蜬蝁 慖 孻憵懥 鬵鵛嚪 烗猀珖, 釢髟偛 藽轚酁 觢 襡襙 暕 濼濷 萆覕貹 廑憀慡, <br><br> 鑆驈 烢烒珛 椵楘溍 滍 跠跬 瘑睯碫 絒翗腏 銙, 擙樲橚 漈禊禓 遳醆 橀 舿萐菿 緀綡蒚 誙 蓏蒠 餩骹 箷 潧潣瑽 箄縴儳 婂崥崣 嬽巃攇 萇雊蜩 撖 嚁寱 慖 岪弨 枅杺枙 譋轐鏕 蜬蝁 蛶觢豥 轒醭鏹 沀皯竻 槶 髬 觓倎哤 揗斝湁 貆賌 鋟 摿斠 轀鞜餲 譾躒鑅, 圩芰敔 湹渵焲 狅妵妶 欘臡 摓 荾莯袎 絟缾臮 銇 浶洯, 鸓齈 觛詏貁 濆澓澋 鄜.</p>
+                </div>
+            </div>
+            <div class="large-12 columns large-centered" style="float:left;background:#ddd;box-shadow:0 0 0 1px rgba(0,0,0,.1) inset, 0 3px 5px -3px rgba(0,0,0,.25);height:120px;">
+                <div class="large-4 columns">
+                </div>
+                <div class="large-4 columns">
+                </div>
+                <div class="large-4 columns">
+                </div>
             </div>
         </div>
     </section>
-    <div class="row">
-        <div class="large-3 columns">
-            <h1><img src="http://placehold.it/400x100&text=Logo"/></h1>
-        </div>
-        <div class="large-9 columns">
-            <ul class="right button-group">
-                <li><a href="#about" class="button">About me</a></li>
-                <li><a href="#" class="button">Link 2</a></li>
-                <li><a href="#" class="button">Link 3</a></li>
-                <li><a href="#" class="button">Link 4</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="row">
-        <div class="large-12 columns">
-            <div id="slider">
-                <img src="http://placehold.it/1000x400&text=[ img 1 ]" />
-            </div>
-            <hr/>
-        </div>
-    </div>
-    <div class="row">
-        <div class="large-4 columns">
-            <img src="http://placehold.it/400x300&text=[img]" />
-            <h4>BACON.</h4>
-            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-        </div>
-        <div class="large-4 columns">
-            <img src="http://placehold.it/400x300&text=[img]" />
-            <h4>This is a content section.</h4>
-            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-        </div>
-        <div class="large-4 columns">
-            <img src="http://placehold.it/400x300&text=[img]" />
-            <h4>This is a content section.</h4>
-            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="large-12 columns">
-            <div class="panel">
-                <h4>Get in touch!</h4>
-                <div class="row">
-                    <div class="large-9 columns">
-                        <p>We'd love to hear from you, you attractive person you.</p>
+    <section id="portfolio" style="max-width:100%;overflow:hidden;margin-top:20px;">
+        <div class="row">
+            <div class="large-8 columns large-centered text-center">
+                <article id="slider">
+                    <input checked type="radio" name="slider" id="slide1" />
+                    <input type="radio" name="slider" id="slide2" />
+                    <input type="radio" name="slider" id="slide3" />
+                    <input type="radio" name="slider" id="slide4" />
+                    <input type="radio" name="slider" id="slide5" />
+                    <div id="slides">
+                        <div id="overflow">
+                            <ul class="inner">
+                                <li>
+                                    <div style="background:#fff;padding:40px;margin:0 40px;border-radius:2px;box-shadow:0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 3px 5px -3px rgba(0, 0, 0, 0.25);">
+                                        <img src="/img/bytewize-1.png">
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="inner">
+                                <li>
+                                    <div style="background:#fff;padding:40px;margin:0 40px;border-radius:2px;box-shadow:0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 3px 5px -3px rgba(0, 0, 0, 0.25);">
+                                        <img src="/img/bytewize-2.png">
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="inner">
+                                <li>
+                                    <div style="background:#fff;padding:40px;margin:0 40px;border-radius:2px;box-shadow:0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 3px 5px -3px rgba(0, 0, 0, 0.25);">
+                                        <img src="/img/bytewize-3.png">
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="inner">
+                                <li>
+                                    <div style="background:#fff;padding:40px;margin:0 40px;border-radius:2px;box-shadow:0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 3px 5px -3px rgba(0, 0, 0, 0.25);">
+                                        <img src="/img/bytewize-4.png">
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="inner">
+                                <li>
+                                    <div style="background:#fff;padding:40px;margin:0 40px;border-radius:2px;box-shadow:0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 3px 5px -3px rgba(0, 0, 0, 0.25);">
+                                        <img src="/img/bytewize-2.png">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="large-3 columns">
-                        <a href="#" class="radius button right">Contact Us</a>
+                    <div id="controls">
+                        <label for="slide1" class="slider"></label>
+                        <label for="slide2" class="slider"></label>
+                        <label for="slide3" class="slider"></label>
+                        <label for="slide4" class="slider"></label>
+                        <label for="slide5" class="slider"></label>
                     </div>
+                    <div id="active">
+                        <label for="slide1" class="slider"></label>
+                        <label for="slide2" class="slider"></label>
+                        <label for="slide3" class="slider"></label>
+                        <label for="slide4" class="slider"></label>
+                        <label for="slide5" class="slider"></label>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!--
+    <div class="row">
+        <div class="large-12 columns large-centered">
+            <p> Lorem ipsum dolor sit amet, nam ferri malis eripuit et, has ea nusquam intellegam, ex eos latine tritani placerat. Et vide postea dissentias qui, mea vocent adipiscing delicatissimi ut. Vel ne quidam omittam elaboraret. Ex aliquam labores quaerendum est, agam novum evertitur ne sea. Usu nisl natum et, duo ne volutpat vulputate adipiscing, nam no partem intellegebat. Qui at iuvaret contentiones signiferumque, vel case saepe ne. Ne ius audiam nostrud inciderint. Ei est graeci mnesarchum, saperet expetenda vel ei. Eum ex docendi luptatum repudiare, ad epicuri verterem qui. Vis cu quaeque tibique constituam, ad graeci animal hendrerit sed, pro at movet eligendi constituto. Vel facilis elaboraret ad, nec patrioque mediocritatem cu. Cu posse persecuti vis. Nam affert laudem dolorum ut, eu has animal similique repudiandae, exerci explicari consectetuer cu vel. Sit no iusto apeirian vituperatoribus, ne tamquam erroribus salutatus mel. Ea audire temporibus sea, ad etiam omnesque eos. Vim te probo facilis, detracto sapientem an quo, iisque eleifend principes pri ex. Pri nisl veri assueverit ex, dolore ubique percipit an has. Eum eu omnium consulatu persequeris. Ut eros honestatis mei, ex sed minim theophrastus. Brute assueverit pri cu. Et adhuc quodsi mea, sea et modo sumo unum. Essent blandit nam ad, case probo contentiones eu mel. Ei eros electram vix.</p>
+        </div>
+    </div>
+    <div id="load-charts"></div>
+    -->
+    <!--
+    <div id="charts-container" class="row collapse" style="display:none">
+        <div class="large-6 columns text-center">
+            <div class="medium-6 columns">
+                <p class="chart-title-text" style="color:#d85c5c;"><img class="chart-title-img" src="/img/web.png">Webb Utveckling</p>
+                <p class="chart-sub-title-text">HTML och CSS</p>
+                <div id="chart1" class="chart large-centered columns" data-percent="90">
+                    <p class="chart-text">90%</p>
+                </div>
+            </div>
+            <div class="medium-6 columns">
+                <p class="chart-title-text" style="color:#5cd891;"><img class="chart-title-img" src="/img/responsive.png">Responsiv Design</p>
+                <p class="chart-sub-title-text">Foundation 5</p>
+                <div id="chart2" class="chart large-centered columns" data-percent="85">
+                    <p class="chart-text">85%</p>
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns text-center">
+            <div class="medium-6 columns">
+                <p class="chart-title-text" style="color:#75bfd6;"><img class="chart-title-img" src="/img/function.png">funktionallitet</p>
+                <p class="chart-sub-title-text">Javascript och jQuery</p>
+                <div id="chart3" class="chart large-centered columns" data-percent="95">
+                    <p class="chart-text">95%</p>
+                </div>
+            </div>
+            <div class="medium-6 columns">
+                <p class="chart-title-text" style="color:#e7ca43;"><img class="chart-title-img" src="/img/database.png">Server och Databas</p>
+                <p class="chart-sub-title-text">Apache, MySQL, GO och PHP</p>
+                <div id="chart4" class="chart large-centered columns" data-percent="80">
+                    <p class="chart-text">80%</p>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="row">
-        <div class="large-12 columns">
-            <hr/>
-            <div class="row">
-                <div class="large-6 columns">
-                    <p>© Copyright no one at all. Go to town.</p>
-                </div>
-                <div class="large-6 columns">
-                    <ul class="inline-list right">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-                        <li><a href="#">Link 4</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-<!--     <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/fastclick.js"></script>
-    <script src="js/foundation.min.js"></script>
- -->
-    <script src="js/build.min.js"></script>
-     <script>
+    -->
+    <script src="/js/vendor/fastclick.js"></script>
+    <script src="/js/vendor/easing.js"></script>
+    <script src="/js/vendor/easypiechart.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/app.js"></script>
+    <!--[if lte IE 9]>
+        <script src="/js/ie-app.js"></script>
+    <![endif]-->
+    <!-- <script src="js/build.min.js"></script> -->
+    <script>
     $(document).foundation();
     </script>
 </body>
