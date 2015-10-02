@@ -564,6 +564,9 @@ select {
   .medium-5 {
     width: 41.66667%; }
 
+  .medium-5-5 {
+    width: 49%; }
+
   .medium-6 {
     width: 50%; }
 
@@ -927,6 +930,9 @@ select {
   .large-5 {
     width: 41.66667%; }
 
+  .large-5-5 {
+    width: 49%; }
+
   .large-6 {
     width: 50%; }
 
@@ -944,6 +950,9 @@ select {
 
   .large-11 {
     width: 91.66667%; }
+
+  .large-11-5 {
+    width: 95.2%; }
 
   .large-12 {
     width: 100%; }
